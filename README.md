@@ -48,7 +48,11 @@ blocks.place(MELON_BLOCK, location5)
 ### Activity 3
 ```
 apple = 10
+# change to: apple = apple + 2
+apple += 2
 melon = 15
+# change to: melon = melon - 3
+melon -= 3
 berries = 20
 potato = 2
 pumpkin = berries - apple
@@ -64,5 +68,4 @@ cost = cost + potato
 # add pumpkin
 cost = cost + pumpkin
 player.say(cost)
-
 ```
