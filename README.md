@@ -14,3 +14,14 @@ player.say("Hi")
     ```
     blocks.place(REDSTONE_LAMP, pos(0, 7, 0))
     ```
+
+## Lesson 3
+```
+a = "apple"
+b = "berries"
+c = "cherries"
+fruit = a
+player.say(fruit)
+fruit = b
+player.say(fruit)
+```
