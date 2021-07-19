@@ -16,6 +16,7 @@ player.say("Hi")
     ```
 
 ## Lesson 3
+### Activity 1
 ```
 a = "apple"
 b = "berries"
@@ -24,4 +25,23 @@ fruit = a
 player.say(fruit)
 fruit = b
 player.say(fruit)
+```
+### Activity 2
+```
+location1 = world(-24, 40, -18)
+location2 = world(-31, 40, -11)
+location3 = world(-28, 40, -16)
+location4 = world(-25, 40, -13)
+location5 = world(-31, 40, -17)
+# Replace the lines below with your code #
+# place block at location1 command
+blocks.place(MELON_BLOCK, location1)
+# place block at location2 command
+blocks.place(MELON_BLOCK, location2)
+# place block at location3 command
+blocks.place(PUMPKIN, location3)
+# place block at location4 command
+blocks.place(PUMPKIN, location4)
+# place block at location5 command
+blocks.place(MELON_BLOCK, location5)
 ```
