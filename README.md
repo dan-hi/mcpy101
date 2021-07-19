@@ -51,6 +51,7 @@ apple = 10
 melon = 15
 berries = 20
 potato = 2
+pumpkin = berries - apple
 # Replace the lines below with your code #
 # cost of apples | Step 2
 cost = apple
@@ -60,5 +61,8 @@ cost = cost + melon
 cost = cost + 2 * berries
 # add potatos     | Step 1
 cost = cost + potato
+# add pumpkin
+cost = cost + pumpkin
 player.say(cost)
+
 ```
