@@ -54,8 +54,8 @@ melon = 15
 # change to: melon = melon - 3
 melon -= 3
 berries = 20
-potato = 2
-pumpkin = berries - apple
+# pumpkin = berries - apple
+pumpkin = 20 - 10
 # Replace the lines below with your code #
 # cost of apples | Step 2
 cost = apple
