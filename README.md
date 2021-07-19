@@ -45,3 +45,20 @@ blocks.place(PUMPKIN, location4)
 # place block at location5 command
 blocks.place(MELON_BLOCK, location5)
 ```
+### Activity 3
+```
+apple = 10
+melon = 15
+berries = 20
+potato = 2
+# Replace the lines below with your code #
+# cost of apples | Step 2
+cost = apple
+# add melon                           | Step 3
+cost = cost + melon
+# add berries                          | Step 3
+cost = cost + 2 * berries
+# add potatos     | Step 1
+cost = cost + potato
+player.say(cost)
+```
