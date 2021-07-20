@@ -3,6 +3,18 @@
 ## 1. Intro
 
 ### A. Types
+```
+say("Hello World!")
+```
+
+Fix the errors below:
+```
+say("Once upon a time")
+say("There was a mysterious world...)
+say(In which everything was made out of blocks, exactly the same size.)
+say(Also in this world was a village, perched on top of some floating islands.")
+say(How the island floats, no one knows...)
+```
 
 ### B. Variables
 ```
