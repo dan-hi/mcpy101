@@ -16,11 +16,12 @@ say(Also in this world was a village, perched on top of some floating islands.")
 say(How the island floats, no one knows...)
 ```
 
-Variables can hold values of different types:
+You can also say differnt different types:
 ```
-say(23)
-say(74.2)
-say(False)
+say(23)    # integer
+say(74.2)  # float
+say(True)  # Boolean
+say(False) # Boolean
 ```
 
 ### B. Variables
