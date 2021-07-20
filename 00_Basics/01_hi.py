@@ -4,4 +4,5 @@
 Say hi
 """
 print ("hi")
-print ("Hi Daniel")
+#+ print (cost)
+#print (cost) 
