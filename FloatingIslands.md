@@ -49,3 +49,13 @@ For example
 name = "bob"
 age = 5
 ```
+
+### C. Agent Test
+```
+agent.move("forward")
+agent.move("back")
+agent.move("left")
+agent.move("right")
+agent.move("up")
+# agent.move("down")
+```
