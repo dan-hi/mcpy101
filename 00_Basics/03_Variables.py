@@ -14,4 +14,6 @@ cost = apple
 cost = cost + melon 
 cost = cost + 2 * berries
 cost += pumpkin
-print ("Total Cost: $", cost) 
+print ("Total Cost:", cost, sep=' $') 
+
+# print(f"Total Cost: ${cost}")
