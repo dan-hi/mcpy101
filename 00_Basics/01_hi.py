@@ -3,3 +3,5 @@
 
 Say hi
 """
+print ("hi")
+print ("Hi Daniel")
