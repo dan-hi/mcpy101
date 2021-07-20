@@ -1,4 +1,5 @@
 # MineCraft Python 101
+(_[Floating Islands](FloatingIslands.md)_)
 
 ## Lesson 1
 ```
