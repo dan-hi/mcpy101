@@ -1,6 +1,6 @@
 # Floating Islands
 
-## 1. Intro
+## 1. Island 1
 
 ### A. Types
 ```
@@ -69,4 +69,18 @@ else:
     say("It's", world.weather, "outside.")
 ```
     
-#
+## Indentation
+```
+# Try changing the name below
+current_weather = world.weather
+
+if current_weather == "clear":
+    say("The weather is nice and clear")
+    say("No coat needed!")
+else:
+    say("It's raining! Get your coat quick!")
+    
+# outside the if- else statement, so this always runs
+say("And that completes your weather information")
+```
+
