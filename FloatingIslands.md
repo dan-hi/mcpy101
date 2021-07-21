@@ -59,3 +59,14 @@ agent.move("right")
 agent.move("up")
 # agent.move("down")
 ```
+
+# Island 2
+```
+
+if world.weather == "rain":
+    say("It's raining, quickly get inside!")
+else:
+    say("It's", world.weather, "outside.")
+```
+    
+#
