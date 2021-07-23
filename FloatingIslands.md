@@ -3,6 +3,7 @@
 ## 1. Island 1
 
 ### A. Types
+`string`:
 ```
 say("Hello World!")
 ```
@@ -16,7 +17,7 @@ say(Also in this world was a village, perched on top of some floating islands.")
 say(How the island floats, no one knows...)
 ```
 
-You can also say differnt different types:
+In addition to `string`, there are three other types of variables that you can also `say()` or `print()`:
 ```
 say(23)    # integer
 say(74.2)  # float
