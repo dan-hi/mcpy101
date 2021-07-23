@@ -125,5 +125,17 @@ while Found == "air":
 if Found == "iron_ore":
     agent.destroy(direction)
 ```
+## Purity Of Iron Ore
+_avoid saying "iron purity"_ because iron and purity are both nouns.
+```
+if(purity("forward") <= 3):
+    deny()
+    say("Purity less than or equal to 3!")
+# Add your else code below
 
+else:
+    say("Purity is acceptable!")
+    accept()
+```
+    
     
