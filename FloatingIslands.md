@@ -109,5 +109,21 @@ else:
     say("No Nest")
     harvest()
     next()
-    ```
+```
+
+## Collecting Iron Ore
+```
+direction = "right"
+
+Found = agent.inspect(direction)
+say(Found)
+while Found == "air":
+    agent.move(direction)
+    Found = agent.inspect(direction)
+    say(Found)
+
+if Found == "iron_ore":
+    agent.destroy(direction)
+```
+
     
