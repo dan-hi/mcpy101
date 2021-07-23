@@ -98,3 +98,16 @@ if(block == "wheat"):
 else:
     deny()    
 ```
+## Collecting Forest Wood
+```
+broadcast_position()
+
+if (is_nest() == True):
+    say("I found a nest!")
+    next()
+else:
+    say("No Nest")
+    harvest()
+    next()
+    ```
+    
