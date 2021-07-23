@@ -84,4 +84,17 @@ else:
 # outside the if- else statement, so this always runs
 say("And that completes your weather information")
 ```
+## Carrot and Wheat Checking
+```
+agent.move("forward")
+agent.move("forward")
+agent.move("forward")
 
+# Check the seeds
+block = agent.inspect("down")
+say(block)
+if(block == "wheat"):
+    accept() 
+else:
+    deny()    
+```
