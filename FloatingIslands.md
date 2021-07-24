@@ -137,5 +137,14 @@ else:
     say("Purity is acceptable!")
     accept()
 ```
+
+## Lesson 3 Intro to Loops
+
+When you know the number of times to iterate, use the `for` loop (don't forget the `:` at the end):
+
+```
+for count in range(0,8):
+    say(count, "via say")
+```
     
     
