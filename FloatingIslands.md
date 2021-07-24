@@ -146,5 +146,10 @@ When you know the number of times to iterate, use the `for` loop (don't forget t
 for count in range(0,8):
     say(count, "via say")
 ```
-    
+## Covering Hatches
+```
+for count in range(0,7):     
+    agent.place(1, "down")
+    agent.move("forward")
+```
     
