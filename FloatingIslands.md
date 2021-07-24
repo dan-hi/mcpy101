@@ -158,3 +158,14 @@ for count in range(0,11):
     agent.place(1, "down")
     agent.move("forward")
 ```
+### Finding a Spellbook
+```
+for count in range(0,4):    
+    if found_book("forward"):
+        say("Found the book!")
+        mark_book("forward")
+    else:
+        say("Spell book not found on this shelf")
+    agent.move("up")
+
+```
