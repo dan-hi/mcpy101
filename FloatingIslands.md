@@ -169,3 +169,28 @@ for count in range(0,4):
     agent.move("up")
 
 ```
+### Mining For Gold
+```
+for tunnel in range(0, 3):
+#     # Complete the for loop above to repeat 3 times!
+#     agent.move("forward")
+    agent.move("forward")
+
+    say("FORWARD")
+    say("  digging...")
+    for dig in range(0,3):
+        agent.destroy("down")
+        agent.move("down")
+
+    say("  inspecting...")
+    if(agent.inspect("down") == "gold_ore"):
+        agent.destroy("down")
+
+    say("  rising...")        
+    for rise in range(0,3):
+        agent.move("up")
+
+    agent.move("forward")       
+    # Add the final code to move the agent forward, below
+    ```
+    
