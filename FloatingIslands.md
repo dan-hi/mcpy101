@@ -193,4 +193,12 @@ for tunnel in range(0, 3):
     agent.move("forward")       
     # Add the final code to move the agent forward, below
     ```
+## Using Variables
+```
+block = agent.inspect("down")
+if(block == "wheat"):
     
+    # Add an agent.destroy above and complete the agent.place below!
+    agent.place(1,"down")
+    say("Wheat!")
+```
