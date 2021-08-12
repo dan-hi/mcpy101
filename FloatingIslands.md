@@ -202,3 +202,13 @@ if(block == "wheat"):
     agent.place(1,"down")
     say("Wheat!")
 ```
+### Lesson 4
+```
+## Building A Bridge
+```
+while agent.inspect("forward") == "air":
+    agent.move("forward")
+    agent.place(1, "down")
+    # Add the code above here
+say("I've reached the end")
+```
