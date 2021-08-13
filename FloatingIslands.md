@@ -263,3 +263,19 @@ def on_player_travelled(location, mode, distance):
     
     # Add your code to the line above
 ```
+## Island 6
+Learning about lists.
+## Learning about plants
+```
+block = agent.inspect("down")
+
+hydration = get_hydration(block)
+nutrition = get_nutrition(block)
+strength = get_strength(block)
+
+# Create a new list below containing your variables above
+plant_info = [block, hydration, nutrition, strength] 
+
+# This will submit the information to the scientists to compare with their results
+submit(plant_info)
+```
