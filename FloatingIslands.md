@@ -232,8 +232,9 @@ while agent.get_item_count(1) < 4:
         agent.destroy("down")
         # Complete the 2 lines above.
 ```
-### Island 5
-```
+
+# Island 5
+Help Building a telescope. First build two towers.  Later, insert pieces from inventory spot 1.
 ## Building Towers
 ```
 def build_tower():
@@ -241,7 +242,7 @@ def build_tower():
         agent.move("up")
         draw_square(3)
 ```
-## Getting Data
+### Getting Data
 ```
 def decode(info):
     if info == "a":
@@ -253,7 +254,7 @@ def decode(info):
     elif info == "d":
         return 4
 ```
-## Wiring It Up
+### Wiring It Up
 ```
 def on_player_travelled(location, mode, distance):
     loc = correct_location(location)
