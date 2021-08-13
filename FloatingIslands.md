@@ -212,3 +212,15 @@ while agent.inspect("forward") == "air":
     # Add the code above here
 say("I've reached the end")
 ```
+## Mining For Diamonds
+```
+found_diamond = 0
+while found_diamond < 3:
+    if check_ore("forward") == "diamond_ore":
+        mark_diamond()
+        # Complete the line above 
+        found_diamond = found_diamond + 1
+    else:
+        mark_bin()
+        # Complete the line above to dispose of other ores
+```
