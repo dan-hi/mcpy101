@@ -279,3 +279,20 @@ plant_info = [block, hydration, nutrition, strength]
 # This will submit the information to the scientists to compare with their results
 submit(plant_info)
 ```
+## Finding Fossils
+```
+coordinates = []
+
+for row in range(0,4):
+    for col in range(0,4):
+        if is_fossil_below():
+            coordinates.append(agent.position)
+            # Add your append code above
+            say("Fossil!")
+        agent.move("forward")
+    return_agent()
+    agent.move("left")
+
+# Submit co-ordinates for checking
+submit(coordinates)
+```
