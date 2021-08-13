@@ -224,3 +224,11 @@ while found_diamond < 3:
         mark_bin()
         # Complete the line above to dispose of other ores
 ```
+## Picking Flowers
+```
+while agent.get_item_count(1) < 4:
+    agent.move("forward")
+    if check_flower("down") == "poppy":    # Tip, on this line, make sure there is no extra spaces within the speech marks!
+        agent.destroy("down")
+        # Complete the 2 lines above.
+```
