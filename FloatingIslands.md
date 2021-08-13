@@ -253,3 +253,12 @@ def decode(info):
     elif info == "d":
         return 4
 ```
+## Wiring It Up
+```
+def on_player_travelled(location, mode, distance):
+    loc = correct_location(location)
+    agent.teleport(loc)
+    agent.place(1, "down")
+    
+    # Add your code to the line above
+```
