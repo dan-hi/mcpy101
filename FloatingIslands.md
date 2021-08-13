@@ -241,3 +241,15 @@ def build_tower():
         agent.move("up")
         draw_square(3)
 ```
+## Getting Data
+```
+def decode(info):
+    if info == "a":
+        return 1
+    elif info == "b":
+        return 2
+    elif info == "c":
+        return 3
+    elif info == "d":
+        return 4
+```
