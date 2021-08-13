@@ -232,3 +232,12 @@ while agent.get_item_count(1) < 4:
         agent.destroy("down")
         # Complete the 2 lines above.
 ```
+### Island 5
+```
+## Building Towers
+```
+def build_tower():
+    for height in range(0, 15):
+        agent.move("up")
+        draw_square(3)
+```
