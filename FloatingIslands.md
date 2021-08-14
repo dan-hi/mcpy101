@@ -296,3 +296,17 @@ for row in range(0,4):
 # Submit co-ordinates for checking
 submit(coordinates)
 ```
+## Checking the Rocket
+```
+for kfjeija in range(0, 26):
+# Complete the for loop above to run 26 times
+    block = agent.inspect("forward")
+    if (block in accepted_blocks):
+        say("Accept")
+        accept()
+    else:
+        say("Deny")
+        deny()
+    agent.move("up")
+    # Add and agent.move above to move your agent up
+```
