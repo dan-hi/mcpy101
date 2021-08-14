@@ -310,3 +310,14 @@ for kfjeija in range(0, 26):
     agent.move("up")
     # Add and agent.move above to move your agent up
 ```
+## Helping a Airport
+```
+for row in runway_design:
+    for block in row:
+        agent.place(block, "down")
+        agent.move("right")
+        # Add code above to move the Agent to the right
+    return_agent()
+    agent.move("forward")
+    # Add code above to move the Agent forward
+```
