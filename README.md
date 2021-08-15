@@ -70,3 +70,18 @@ cost = cost + potato
 cost = cost + pumpkin
 player.say(cost)
 ```
+
+# Lesson 5
+```
+for c in range(0, 7):
+    agent.move(FORWARD, 1)
+    agent.collect_all()
+# end of loop 1
+agent.move(RIGHT, 1)
+agent.collect_all()
+for m in range(0, 7):
+    agent.move(BACK, 1)
+    agent.collect_all()
+
+agent.drop_all(RIGHT)
+```
