@@ -90,3 +90,18 @@ agent.drop_all(RIGHT)
 ```
 
 ## Activity 2
+
+```
+for q in range(0, 4):  
+# loop number 3                                 | Part 2
+# loop number 1
+    for e in range(0, 7):
+        agent.move(FORWARD, 1)
+        agent.collect_all()
+# end of loop 1
+    agent.move(RIGHT, 1)
+    for r in range(0, 7):
+        agent.move(BACK, 1)
+        agent.collect_all()
+    agent.drop_all(RIGHT)
+```
