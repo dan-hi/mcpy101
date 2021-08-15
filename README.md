@@ -72,6 +72,9 @@ player.say(cost)
 ```
 
 # Lesson 5
+
+## Activity 1 
+Program the agent to collect dirty clothes in a 7 x 2 rectangle and bring them back "to start."
 ```
 for c in range(0, 7):
     agent.move(FORWARD, 1)
@@ -85,3 +88,5 @@ for m in range(0, 7):
 
 agent.drop_all(RIGHT)
 ```
+
+## Activity 2
