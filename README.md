@@ -107,3 +107,9 @@ for q in range(0, 4):
         agent.collect_all()
     agent.drop_all(RIGHT)
 ```
+
+# Lesson 6: Conditionals
+
+```
+
+```
