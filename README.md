@@ -1,12 +1,12 @@
 # MineCraft Python 101
 (_[Click here to go to Floating Islands](FloatingIslands.md)_)
 
-## Lesson 1
+## Lesson 1:  Syntax
 ```
 player.say("Hi")
 ```
 
-## Lesson 2
+## Lesson 2: Learning about Relative Coordinates
 * Place brick block (on the ground)
     ```
     blocks.place(BRICKS, pos(0, 0, 0))
@@ -16,7 +16,7 @@ player.say("Hi")
     blocks.place(REDSTONE_LAMP, pos(0, 7, 0))
     ```
 
-## Lesson 3
+## Lesson 3: Variables
 ### Activity 1
 ```
 a = "apple"
@@ -71,7 +71,9 @@ cost = cost + pumpkin
 player.say(cost)
 ```
 
-# Lesson 5
+# Lesson 4: Lists
+
+# Lesson 5: Loops
 
 ## Activity 1 
 Program the agent to collect dirty clothes in a 7 x 2 rectangle and bring them back "to start."
