@@ -109,6 +109,10 @@ for q in range(0, 4):
 ```
 
 # Lesson 6: Conditionals
+The lesson seems to have a bug!
+
+
+# Lesson 7: While Loops
 
 ```
 
