@@ -113,7 +113,19 @@ The lesson seems to have a bug!
 
 
 # Lesson 7: While Loops
-
+building a wall
 ```
+while agent.detect(AgentDetection.REDSTONE, FORWARD):
+    # Make the Agent place a block to its right         |Part 2
+    agent.place(RIGHT)
+    # Make the Agent move up                            |Part 2
+    agent.move(UP, 1)
+    # Make the Agent place a block to its right         |Part 2
+    agent.place(RIGHT)
+    # Make the Agent move back down                     |Part 2
+    agent.move(DOWN, 1)
+    # Make the Agent move forward               |Part 1
+    agent.move(FORWARD, 1)
+    # End of while loop                                
 
 ```
