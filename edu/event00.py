@@ -20,3 +20,13 @@ player.on_chat ("chicken", on_chat2)
 def on_chat3 () :
   for index4 in range (15):
     mobs.spawn (SNOWBALL_ PROJECTILE _MOB, position(0, 10, 0))
+
+player.on_chat ("snowball", on_chat3)
+def item_interacted_blaze_rod() :
+player.run_chat_command( "carrot")
+player.run_chat_command ( "chicken"')
+player.run_chat_command("snowball")
+
+player.on_item_player.on chat ("snowball", on_chat3)
+def item interacted blaze rod() :
+
