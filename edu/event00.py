@@ -23,10 +23,9 @@ def on_chat3 () :
 
 player.on_chat ("snowball", on_chat3)
 def item_interacted_blaze_rod() :
-player.run_chat_command( "carrot")
-player.run_chat_command ( "chicken"')
-player.run_chat_command("snowball")
+  player.run_chat_command( "carrot")
+  player.run_chat_command ( "chicken"')
+  player.run_chat_command("snowball")
 
-player.on_item_player.on chat ("snowball", on_chat3)
-def item interacted blaze rod() :
+player.on_item_interacted (BLAZE_ROD, item_interacted_blaze_rod)
 
