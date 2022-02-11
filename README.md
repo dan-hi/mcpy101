@@ -129,3 +129,18 @@ while agent.detect(AgentDetection.REDSTONE, FORWARD):
     # End of while loop                                
 
 ```
+# Lighting the Lamp
+```
+def on circuit() :
+player.say("hi")
+3
+while not agent.detect (AgentDetection.BLOCK, BACK) :
+4
+agent.place (BACK)
+5
+agent.move (BACK, 1)
+6
+# player.on_chat ("circuit", on_circuit)
+7
+on_circuit
+```
